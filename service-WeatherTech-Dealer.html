@@ -15,7 +15,8 @@
         <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.2/tailwind.min.css"> -->
         <link rel="stylesheet" href="https://prophone-templates.vercel.app/assets/output.css">
         
-        <!-- <link rel="stylesheet"  type="text/css"  href="/staticfiles/landing_page_gen/tailwind.css"> -->
+        
+        <link href="https://prophone.herokuapp.com/staticfiles/landing_page_gen/output.css" rel="stylesheet">
         <!-- Include Scripts -->
         <!-- Header Component, only used for presentation -->
 
@@ -31,10 +32,7 @@
 <script defer src="https://unpkg.com/alpinejs@3.7.0/dist/cdn.min.js"></script>
 <!-- Focus Visible Polyfill -->
 <script defer src="https://unpkg.com/focus-visible@5.2.0/dist/focus-visible.min.js"></script>
-        <!-- <link rel="stylesheet" href="/staticfiles/landing_page_gen/style.css" type="text/css"> -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <!-- 
-        <script src="https://prophone.herokuapp.com/staticfiles/landing_page_gen/render.js"></script>  -->
 
         <!-- <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js"></script> -->
         <style>
@@ -314,7 +312,7 @@
                                         <div class="overflow-hidden rounded-lg shadow-lg ring-1 ring-black ring-opacity-5">
                                             <div class="relative grid gap-6 px-5 py-6 bg-white sm:gap-8 sm:p-8">
                                                 <!-- Render each sublink -->
-                                                <!-- <each loop="link in [{&#x27;title&#x27;: &#x27;Services: Foam Bath, Wash, Tires, Wheels, Wax, Tire Shine, Door Jams, Vacuum, Quick Wipe, Windows, Shine, Air Scent.&#x27;, &#x27;copy&#x27;: &#x27;Maintenance Detail Package&#x27;, &#x27;href&#x27;: &#x27;service-Maintenance-Detail-Package&#x27;}, {&#x27;title&#x27;: &#x27;Services: Foam Bath, Wash, Tires, Wheels, Tire Shine, Clay Bar, 6 Month Sealant, Trim Shine, Door Jams, Vacuum, Wipe, Windows, Shine, Air Scent, Mats Washed and Revived, Crevices Blown and Cleaned, Headliner, Steam Cleaned.&#x27;, &#x27;copy&#x27;: &#x27;Elite Maintenance Detail Package&#x27;, &#x27;href&#x27;: &#x27;service-Elite-Maintenance-Detail-Package&#x27;}, {&#x27;title&#x27;: &#x27;Services: Foam Bath, Wash, Tires, Wheels, Tire Shine, Clay Bar, 1 Step Polish, 12 month Paint Sealant, Trim Shine, Door Jams, Vacuum, Window Wipe and Shine, Air Freshening, Floor Matt Wash and Revival, Crevices Blown and Cleaned, Headliner, Steam Cleaned, Hot Water Shampoo Extraction, Leather Steam, Cleaned and Conditioned&#x27;, &#x27;copy&#x27;: &#x27;Platinum Maintenance Detail Package&#x27;, &#x27;href&#x27;: &#x27;service-Platinum-Maintenance-Detail-Package&#x27;}, {&#x27;title&#x27;: &#x27;Ceramic Coating is the most protection you can offer your vehicle. It’s a glass coating that is applied to the paint, trim, and glass. It provides protection from harsh road elements, gives the most shine of a vehicle, and makes cleaning effortless. A platinum exterior is included in this package.&#x27;, &#x27;copy&#x27;: &#x27;Ceramic Coating&#x27;, &#x27;href&#x27;: &#x27;service-Ceramic-Coating&#x27;}, {&#x27;title&#x27;: &quot;Our Paint Correction service is perfect for those who want to achieve a flawless finish on their car&#x27;s paint job.&quot;, &#x27;copy&#x27;: &#x27;Paint Correction&#x27;, &#x27;href&#x27;: &#x27;service-Paint-Correction&#x27;}, {&#x27;title&#x27;: &#x27;The RV/Camper Detail service is perfect for those who want their RV or camper looking its best.&#x27;, &#x27;copy&#x27;: &#x27;RV and Camper Detail&#x27;, &#x27;href&#x27;: &#x27;service-RV-and-Camper-Detail&#x27;}, {&#x27;title&#x27;: &quot;The Boat Detail service provides a comprehensive cleaning and detailing of your boat, customized to your specific needs and preferences. I use only the highest quality products and materials, so you can rest assured your boat is in mint condition after I&#x27;m finished with it&quot;, &#x27;copy&#x27;: &#x27;Boat Detail&#x27;, &#x27;href&#x27;: &#x27;service-Boat-Detail&#x27;}, {&#x27;title&#x27;: &#x27;The Motorcycle Detail service provides a comprehensive, expert cleaning and detailing of your motorcycle. \r\nBenefits of the Motorcycle Detail service include: \r\n\r\n- Thorough cleaning and detailing of your bike,&#x27;, &#x27;copy&#x27;: &#x27;Motorcycle Detail&#x27;, &#x27;href&#x27;: &#x27;service-Motorcycle-Detail&#x27;}, {&#x27;title&#x27;: &#x27;We understand some vehicles may acquire mold. Mold is dangerous for your vehicle, but more importantly your health. We have all tools and chemicals to eliminate that hazard.&#x27;, &#x27;copy&#x27;: &#x27;Mold Removal&#x27;, &#x27;href&#x27;: &#x27;service-Mold-Removal&#x27;}, {&#x27;title&#x27;: &#x27;Leather/Fabric coating applied on carpets, seats, and any other spaces that provides protection from sunlight, fluids, dirt, and more. This coating will last the year, and then some, with proper maintenance&#x27;, &#x27;copy&#x27;: &#x27;Leather and Fabric Coating&#x27;, &#x27;href&#x27;: &#x27;service-Leather-and-Fabric-Coating&#x27;}, {&#x27;title&#x27;: &#x27;I am proud to be an authorized Fluid Film Black installer, and look forward to servicing your vehicle so &quot;rust&quot; is never in its dictionary.&#x27;, &#x27;copy&#x27;: &#x27;Fluid Film Black Installer&#x27;, &#x27;href&#x27;: &#x27;service-Fluid-Film-Black-Installer&#x27;}, {&#x27;title&#x27;: &#x27;I am also proud to be one among the shortlist of 10,000 accredited WeatherTech suppliers, as well as a member of the Meyer Distributing family.&#x27;, &#x27;copy&#x27;: &#x27;WeatherTech Dealer&#x27;, &#x27;href&#x27;: &#x27;service-WeatherTech-Dealer&#x27;}]"> -->
+                                                <!-- <each loop="link in [{&#x27;title&#x27;: &#x27;Services: Foam Bath, Wash, Tires, Wheels, Wax, Tire Shine, Door Jams, Vacuum, Quick Wipe, Windows, Shine, Air Scent.&#x27;, &#x27;copy&#x27;: &#x27;Maintenance Detail Package&#x27;, &#x27;href&#x27;: &#x27;service-Maintenance-Detail-Package&#x27;}, {&#x27;title&#x27;: &#x27;Services: Foam Bath, Wash, Tires, Wheels, Tire Shine, Clay Bar, 6 Month Sealant, Trim Shine, Door Jams, Vacuum, Wipe, Windows, Shine, Air Scent, Mats Washed and Revived, Crevices Blown and Cleaned, Headliner, Steam Cleaned.&#x27;, &#x27;copy&#x27;: &#x27;Elite Maintenance Detail Package&#x27;, &#x27;href&#x27;: &#x27;service-Elite-Maintenance-Detail-Package&#x27;}, {&#x27;title&#x27;: &#x27;Services: Foam Bath, Wash, Tires, Wheels, Tire Shine, Clay Bar, 1 Step Polish, 12 month Paint Sealant, Trim Shine, Door Jams, Vacuum, Window Wipe and Shine, Air Freshening, Floor Matt Wash and Revival, Crevices Blown and Cleaned, Headliner, Steam Cleaned, Hot Water Shampoo Extraction, Leather Steam, Cleaned and Conditioned&#x27;, &#x27;copy&#x27;: &#x27;Platinum Maintenance Detail Package&#x27;, &#x27;href&#x27;: &#x27;service-Platinum-Maintenance-Detail-Package&#x27;}, {&#x27;title&#x27;: &#x27;Ceramic Coating is the most protection you can offer your vehicle. Contact for a quote&#x27;, &#x27;copy&#x27;: &#x27;Ceramic Coating&#x27;, &#x27;href&#x27;: &#x27;service-Ceramic-Coating&#x27;}, {&#x27;title&#x27;: &quot;Our Paint Correction service is perfect for those who want to achieve a flawless finish on their car&#x27;s paint job.&quot;, &#x27;copy&#x27;: &#x27;Paint Correction&#x27;, &#x27;href&#x27;: &#x27;service-Paint-Correction&#x27;}, {&#x27;title&#x27;: &#x27;The RV/Camper Detail service is perfect for those who want their RV or camper looking its best.&#x27;, &#x27;copy&#x27;: &#x27;RV and Camper Detail&#x27;, &#x27;href&#x27;: &#x27;service-RV-and-Camper-Detail&#x27;}, {&#x27;title&#x27;: &quot;The Boat Detail service provides a comprehensive cleaning and detailing of your boat, customized to your specific needs and preferences. I use only the highest quality products and materials, so you can rest assured your boat is in mint condition after I&#x27;m finished with it&quot;, &#x27;copy&#x27;: &#x27;Boat Detail&#x27;, &#x27;href&#x27;: &#x27;service-Boat-Detail&#x27;}, {&#x27;title&#x27;: &#x27;The Motorcycle Detail service provides a comprehensive, expert cleaning and detailing of your motorcycle. \r\nBenefits of the Motorcycle Detail service include: \r\n\r\n- Thorough cleaning and detailing of your bike,&#x27;, &#x27;copy&#x27;: &#x27;Motorcycle Detail&#x27;, &#x27;href&#x27;: &#x27;service-Motorcycle-Detail&#x27;}, {&#x27;title&#x27;: &#x27;We understand some vehicles may acquire mold. Mold is dangerous for your vehicle, but more importantly your health. We have all tools and chemicals to eliminate that hazard.&#x27;, &#x27;copy&#x27;: &#x27;Mold Removal&#x27;, &#x27;href&#x27;: &#x27;service-Mold-Removal&#x27;}, {&#x27;title&#x27;: &#x27;Leather/Fabric coating applied on carpets, seats, and any other spaces that provides protection from sunlight, fluids, dirt, and more. This coating will last the year, and then some, with proper maintenance&#x27;, &#x27;copy&#x27;: &#x27;Leather and Fabric Coating&#x27;, &#x27;href&#x27;: &#x27;service-Leather-and-Fabric-Coating&#x27;}, {&#x27;title&#x27;: &#x27;I am proud to be an authorized Fluid Film Black installer, and look forward to servicing your vehicle so &quot;rust&quot; is never in its dictionary.&#x27;, &#x27;copy&#x27;: &#x27;Fluid Film Black Installer&#x27;, &#x27;href&#x27;: &#x27;service-Fluid-Film-Black-Installer&#x27;}, {&#x27;title&#x27;: &#x27;I am also proud to be one among the shortlist of 10,000 accredited WeatherTech suppliers, as well as a member of the Meyer Distributing family.&#x27;, &#x27;copy&#x27;: &#x27;WeatherTech Dealer&#x27;, &#x27;href&#x27;: &#x27;service-WeatherTech-Dealer&#x27;}, {&#x27;title&#x27;: &#x27;Cars: $295\nSmall SUV: $349\nTruck/Large SUV: $395&#x27;, &#x27;copy&#x27;: &#x27;Interior Ceramic&#x27;, &#x27;href&#x27;: &#x27;service-Interior-Ceramic&#x27;}, {&#x27;title&#x27;: &#x27;3 Year Coating: $295\n5 Year Coating: $349&#x27;, &#x27;copy&#x27;: &#x27;Windshield Coating&#x27;, &#x27;href&#x27;: &#x27;service-Windshield-Coating&#x27;}]"> -->
                                                   
                                                     <a
                                                         href=" service-Maintenance-Detail-Package "
@@ -354,7 +352,7 @@
                                                         role="menuitem"
                                                         class="block p-3 -m-3 transition rounded-md  focus:outline-none focus:ring-2 ring-primary ring-opacity-75 ring-offset-2 hover:bg-gray-50"
                                                     >
-                                                        <!-- <p class="text-base font-medium text-gray-900">Ceramic Coating is the most protection you can offer your vehicle. It’s a glass coating that is applied to the paint, trim, and glass. It provides protection from harsh road elements, gives the most shine of a vehicle, and makes cleaning effortless. A platinum exterior is included in this package.</p> -->
+                                                        <!-- <p class="text-base font-medium text-gray-900">Ceramic Coating is the most protection you can offer your vehicle. Contact for a quote</p> -->
                                                         <p class="mt-1 text-sm text-gray-500">Ceramic Coating</p>
                                                     </a>
                                                 <!-- </each> -->
@@ -447,6 +445,31 @@ Benefits of the Motorcycle Detail service include:
                                                     >
                                                         <!-- <p class="text-base font-medium text-gray-900">I am also proud to be one among the shortlist of 10,000 accredited WeatherTech suppliers, as well as a member of the Meyer Distributing family.</p> -->
                                                         <p class="mt-1 text-sm text-gray-500">WeatherTech Dealer</p>
+                                                    </a>
+                                                <!-- </each> -->
+                                               <!--  -->
+                                                 
+                                                    <a
+                                                        href=" service-Interior-Ceramic "
+                                                        role="menuitem"
+                                                        class="block p-3 -m-3 transition rounded-md  focus:outline-none focus:ring-2 ring-primary ring-opacity-75 ring-offset-2 hover:bg-gray-50"
+                                                    >
+                                                        <!-- <p class="text-base font-medium text-gray-900">Cars: $295
+Small SUV: $349
+Truck/Large SUV: $395</p> -->
+                                                        <p class="mt-1 text-sm text-gray-500">Interior Ceramic</p>
+                                                    </a>
+                                                <!-- </each> -->
+                                               <!--  -->
+                                                 
+                                                    <a
+                                                        href=" service-Windshield-Coating "
+                                                        role="menuitem"
+                                                        class="block p-3 -m-3 transition rounded-md  focus:outline-none focus:ring-2 ring-primary ring-opacity-75 ring-offset-2 hover:bg-gray-50"
+                                                    >
+                                                        <!-- <p class="text-base font-medium text-gray-900">3 Year Coating: $295
+5 Year Coating: $349</p> -->
+                                                        <p class="mt-1 text-sm text-gray-500">Windshield Coating</p>
                                                     </a>
                                                 <!-- </each> -->
                                                <!--  -->
@@ -760,7 +783,7 @@ Benefits of the Motorcycle Detail service include:
                                             <!-- </each> -->
                                             
                                                 <a href="service-Ceramic-Coating" role="menuitem" class="block p-3 -m-3 transition rounded-md">
-                                                    <!-- <p class="text-base font-medium text-gray-900">Ceramic Coating is the most protection you can offer your vehicle. It’s a glass coating that is applied to the paint, trim, and glass. It provides protection from harsh road elements, gives the most shine of a vehicle, and makes cleaning effortless. A platinum exterior is included in this package.</p> -->
+                                                    <!-- <p class="text-base font-medium text-gray-900">Ceramic Coating is the most protection you can offer your vehicle. Contact for a quote</p> -->
                                                     <p class="mt-1 text-sm text-gray-500">Ceramic Coating</p>
                                                 </a>
                                             <!-- </each> -->
@@ -813,6 +836,21 @@ Benefits of the Motorcycle Detail service include:
                                                 <a href="service-WeatherTech-Dealer" role="menuitem" class="block p-3 -m-3 transition rounded-md">
                                                     <!-- <p class="text-base font-medium text-gray-900">I am also proud to be one among the shortlist of 10,000 accredited WeatherTech suppliers, as well as a member of the Meyer Distributing family.</p> -->
                                                     <p class="mt-1 text-sm text-gray-500">WeatherTech Dealer</p>
+                                                </a>
+                                            <!-- </each> -->
+                                            
+                                                <a href="service-Interior-Ceramic" role="menuitem" class="block p-3 -m-3 transition rounded-md">
+                                                    <!-- <p class="text-base font-medium text-gray-900">Cars: $295
+Small SUV: $349
+Truck/Large SUV: $395</p> -->
+                                                    <p class="mt-1 text-sm text-gray-500">Interior Ceramic</p>
+                                                </a>
+                                            <!-- </each> -->
+                                            
+                                                <a href="service-Windshield-Coating" role="menuitem" class="block p-3 -m-3 transition rounded-md">
+                                                    <!-- <p class="text-base font-medium text-gray-900">3 Year Coating: $295
+5 Year Coating: $349</p> -->
+                                                    <p class="mt-1 text-sm text-gray-500">Windshield Coating</p>
                                                 </a>
                                             <!-- </each> -->
                                             
@@ -919,8 +957,8 @@ Benefits of the Motorcycle Detail service include:
                             href="#"
                             class="relative block w-full px-5 py-3 font-medium text-center rounded-md  focus:outline-none focus:ring focus:z-10 text-secondary bg-gray-50 hover:bg-gray-100"
                             >
-                            Give Us a Call
-                            <!-- call -->
+                            
+                            <!-- none -->
                             </a
                         >
                     </div>
@@ -1009,21 +1047,11 @@ Benefits of the Motorcycle Detail service include:
             
                 
             
-            <div class="inline-flex w-full ml-3 sm:w-auto">
-                <a
-                    target = "_blank" 
-                    href="tel:+1 607-434-4157"
-                    class="inline-flex items-center justify-center w-full px-5 py-3 text-base font-medium transition bg-white border-2 rounded-md  sm:py-4 sm:px-10 hover:bg-primary hover:bg-opacity-10 focus:outline-none focus:ring-2 ring-primary ring-offset-2 ring-opacity-75 sm:w-auto text-primary border-primary"
-                >
-                    Give Us a Call
-                </a>
-            </div>
-            
                 <!-- <div class="w-full sm:w-auto">
                     <button @click="contactModalOpen = true;" class="inline-flex items-center justify-center w-full px-5 py-3 text-base font-medium text-white transition border-2 border-transparent rounded-md sm:py-4 sm:px-10 hover:bg-primary-darker focus:outline-none focus-visible:ring-2 ring-primary ring-offset-2 ring-opacity-75 sm:w-auto bg-primary">Send Us a Text</button>
                 </div>
                 <div class="inline-flex w-full ml-3 sm:w-auto">
-                    <a href="#" class="inline-flex items-center justify-center w-full px-5 py-3 text-base font-medium transition bg-white border-2 rounded-md sm:py-4 sm:px-10 hover:bg-primary hover:bg-opacity-10 focus:outline-none focus:ring-2 ring-primary ring-offset-2 ring-opacity-75 sm:w-auto text-primary border-primary">Give Us a Call</a>
+                    <a href="#" class="inline-flex items-center justify-center w-full px-5 py-3 text-base font-medium transition bg-white border-2 rounded-md sm:py-4 sm:px-10 hover:bg-primary hover:bg-opacity-10 focus:outline-none focus:ring-2 ring-primary ring-offset-2 ring-opacity-75 sm:w-auto text-primary border-primary"></a>
                 </div> -->
             </div>
         </div>
@@ -1767,6 +1795,10 @@ Benefits of the Motorcycle Detail service include:
 
                         
                     
+                        
+                    
+                        
+                    
                 
             
         
@@ -1793,16 +1825,6 @@ Benefits of the Motorcycle Detail service include:
             </div> 
             
                 
-            
-            <div class="inline-flex w-full ml-3 sm:w-auto">
-                <a
-                    target = "_blank" 
-                    href="tel:+1 607-434-4157"
-                    class="inline-flex items-center justify-center w-full px-5 py-3 text-base font-medium transition bg-white border-2 rounded-md  sm:py-4 sm:px-10 hover:bg-primary hover:bg-opacity-10 focus:outline-none focus:ring-2 ring-primary ring-offset-2 ring-opacity-75 sm:w-auto text-primary border-primary"
-                >
-                    Give Us a Call
-                </a>
-            </div>
             
 <!--             
             <div class="w-full sm:w-auto">
@@ -2016,6 +2038,22 @@ Benefits of the Motorcycle Detail service include:
                                     href="service-WeatherTech-Dealer"
                                     class="p-1 text-base text-gray-500 rounded hover:text-gray-900 focus:ring-2 focus:outline-none ring-primary ring-opacity-75"
                                     >WeatherTech Dealer</a
+                                >
+                            </li>
+                            
+                            <li>
+                                <a
+                                    href="service-Interior-Ceramic"
+                                    class="p-1 text-base text-gray-500 rounded hover:text-gray-900 focus:ring-2 focus:outline-none ring-primary ring-opacity-75"
+                                    >Interior Ceramic</a
+                                >
+                            </li>
+                            
+                            <li>
+                                <a
+                                    href="service-Windshield-Coating"
+                                    class="p-1 text-base text-gray-500 rounded hover:text-gray-900 focus:ring-2 focus:outline-none ring-primary ring-opacity-75"
+                                    >Windshield Coating</a
                                 >
                             </li>
                             
@@ -2283,126 +2321,146 @@ Benefits of the Motorcycle Detail service include:
                         <!-- <fieldset>
                             <legend class="text-base font-medium text-gray-900">Services</legend>
                             <div class="mt-2.5 grid gap-y-3.5 grid-cols-2">
-                                12
+                                14
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-81825"
-                                            name="81825"
+                                            id="contact-service-107505"
+                                            name="107505"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-81825" class="ml-3 text-sm font-medium text-gray-700">Maintenance Detail Package</label>
+                                        <label for="contact-label-service-107505" class="ml-3 text-sm font-medium text-gray-700">Maintenance Detail Package</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-81826"
-                                            name="81826"
+                                            id="contact-service-107506"
+                                            name="107506"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-81826" class="ml-3 text-sm font-medium text-gray-700">Elite Maintenance Detail Package</label>
+                                        <label for="contact-label-service-107506" class="ml-3 text-sm font-medium text-gray-700">Elite Maintenance Detail Package</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-81827"
-                                            name="81827"
+                                            id="contact-service-107507"
+                                            name="107507"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-81827" class="ml-3 text-sm font-medium text-gray-700">Platinum Maintenance Detail Package</label>
+                                        <label for="contact-label-service-107507" class="ml-3 text-sm font-medium text-gray-700">Platinum Maintenance Detail Package</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-81828"
-                                            name="81828"
+                                            id="contact-service-107508"
+                                            name="107508"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-81828" class="ml-3 text-sm font-medium text-gray-700">Ceramic Coating</label>
+                                        <label for="contact-label-service-107508" class="ml-3 text-sm font-medium text-gray-700">Ceramic Coating</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-81829"
-                                            name="81829"
+                                            id="contact-service-107509"
+                                            name="107509"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-81829" class="ml-3 text-sm font-medium text-gray-700">Paint Correction</label>
+                                        <label for="contact-label-service-107509" class="ml-3 text-sm font-medium text-gray-700">Paint Correction</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-81830"
-                                            name="81830"
+                                            id="contact-service-107510"
+                                            name="107510"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-81830" class="ml-3 text-sm font-medium text-gray-700">RV and Camper Detail</label>
+                                        <label for="contact-label-service-107510" class="ml-3 text-sm font-medium text-gray-700">RV and Camper Detail</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-81831"
-                                            name="81831"
+                                            id="contact-service-107511"
+                                            name="107511"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-81831" class="ml-3 text-sm font-medium text-gray-700">Boat Detail</label>
+                                        <label for="contact-label-service-107511" class="ml-3 text-sm font-medium text-gray-700">Boat Detail</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-81832"
-                                            name="81832"
+                                            id="contact-service-107512"
+                                            name="107512"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-81832" class="ml-3 text-sm font-medium text-gray-700">Motorcycle Detail</label>
+                                        <label for="contact-label-service-107512" class="ml-3 text-sm font-medium text-gray-700">Motorcycle Detail</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-81833"
-                                            name="81833"
+                                            id="contact-service-107513"
+                                            name="107513"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-81833" class="ml-3 text-sm font-medium text-gray-700">Mold Removal</label>
+                                        <label for="contact-label-service-107513" class="ml-3 text-sm font-medium text-gray-700">Mold Removal</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-81834"
-                                            name="81834"
+                                            id="contact-service-107514"
+                                            name="107514"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-81834" class="ml-3 text-sm font-medium text-gray-700">Leather and Fabric Coating</label>
+                                        <label for="contact-label-service-107514" class="ml-3 text-sm font-medium text-gray-700">Leather and Fabric Coating</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-81835"
-                                            name="81835"
+                                            id="contact-service-107515"
+                                            name="107515"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-81835" class="ml-3 text-sm font-medium text-gray-700">Fluid Film Black Installer</label>
+                                        <label for="contact-label-service-107515" class="ml-3 text-sm font-medium text-gray-700">Fluid Film Black Installer</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-81836"
-                                            name="81836"
+                                            id="contact-service-107516"
+                                            name="107516"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-81836" class="ml-3 text-sm font-medium text-gray-700">WeatherTech Dealer</label>
+                                        <label for="contact-label-service-107516" class="ml-3 text-sm font-medium text-gray-700">WeatherTech Dealer</label>
+                                    </div>
+                                
+                                    <div class="flex items-center">
+                                        <input
+                                            id="contact-service-107517"
+                                            name="107517"
+                                            type="checkbox"
+                                            class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
+                                        />
+                                        <label for="contact-label-service-107517" class="ml-3 text-sm font-medium text-gray-700">Interior Ceramic</label>
+                                    </div>
+                                
+                                    <div class="flex items-center">
+                                        <input
+                                            id="contact-service-107518"
+                                            name="107518"
+                                            type="checkbox"
+                                            class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
+                                        />
+                                        <label for="contact-label-service-107518" class="ml-3 text-sm font-medium text-gray-700">Windshield Coating</label>
                                     </div>
                                 
                             </div>
