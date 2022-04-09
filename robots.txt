@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: 
+Sitemap: https://bwaltscarcare.com/sitemap.xml
